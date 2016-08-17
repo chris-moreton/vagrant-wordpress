@@ -28,3 +28,7 @@ Bring up a Vagrant box and install a clean instance of Wordpress.
 ### Visit the new Wordpress site
     
 http://192.168.40.49/wordpress
+
+### Edit the Wordpress code
+
+A directory named 'html/wordpress' will be created in the vagrant-wordpress directory which will contain the Wordpress installation. You can edit the files on your host machine directly or within the VM at /var/www/html/wordpress
